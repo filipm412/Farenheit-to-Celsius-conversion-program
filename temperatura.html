@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var farenhajt = prompt("Vrednost u Farenhajtima:");
+        var fr = parseInt(farenhajt);
+
+        function f2c() {
+        var c = (fr - 32) * 5 / 9;
+        return c;
+        }        
+        var result=f2c();
+        document.write (f2c().toFixed(2));
+    </script>
+</body>
+</html>
